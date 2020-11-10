@@ -29,7 +29,7 @@ public class ZombieKiller3000 {
             //zombie
             System.out.println("         ____ ");
             System.out.println("        (O  0) ");
-            System.out.println("        _|  |_");
+            System.out.println("        -|  |-");
             //System.out.println(    /   |   |  \ ");
             //System.out.println("  / /  |   | \ \ ");
             //System.out.println(" ('')   | |  ('') ");
@@ -54,7 +54,7 @@ public class ZombieKiller3000 {
                     System.out.println("You chose: " + backpack[input - 1]);
                     System.out.println("*dead zombie sounds* ");
                     System.out.println();
-                    System.out.println("    _|    |_       (x  x)  ");
+                    System.out.println("    _|    |_   _    (x  x)   _ ");
                     break;
 
                 } else {
