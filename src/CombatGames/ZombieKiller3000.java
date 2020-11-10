@@ -18,14 +18,15 @@ public class ZombieKiller3000 {
         Scanner scanner = new Scanner(System.in);
 
         //On screen display
+        System.out.println();
         System.out.println("Welcome to our zombie killing program!");
         System.out.println("Press any key to play");
         String input2 = scanner.next();
 
         if(input2 == input2){
-            System.out.println("You have a zombie approaching!");
-            System.out.println("a " + zombies[rzombie] + " zombie is approaching..");
             System.out.println();
+            System.out.println("Look out! There's a zombie approaching!"+" An ugly ass " + zombies[rzombie] + " zombie is in sight!");
+            System.out.println("Remember...");
             System.out.println("To kill close-range zombies you must pick a shotgun");
             System.out.println("To kill mid-range zombies you must pick an assault rifle");
             System.out.println("To kill long-range zombies you must pick a sniper");
