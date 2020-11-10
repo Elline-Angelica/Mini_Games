@@ -8,8 +8,8 @@ public class ZombieKiller3000 {
     public static void main(String[] args) {
 
 
-        String backpack[] ={"Shotgun", "Assault Rifle", "Sniper"};
-        String zombies[] ={"Close-range", "Mid-range", "Long-range"};
+        String[] backpack ={"Shotgun", "Assault Rifle", "Sniper"};
+        String[] zombies ={"Close-range", "Mid-range", "Long-range"};
 
         Random rand = new Random();
         int upperbound = 3;
@@ -23,7 +23,7 @@ public class ZombieKiller3000 {
         System.out.println("Press any key to play");
         String input2 = scanner.next();
 
-        if(input2 == input2){
+        if(input2.equals(input2)){
             System.out.println();
             System.out.println("Look out! There's a zombie approaching!"+" An ugly ass " + zombies[rzombie] + " zombie is in sight!");
             System.out.println("Remember...");
@@ -39,9 +39,7 @@ public class ZombieKiller3000 {
 
         //On screen options
 
-        if(input3 == input3) {
-
-            boolean rightChoice = true;
+        if(input3.equals(input3)) {
 
             System.out.println("Choose your weapon!");
             System.out.println("Press 0 for a shotgun, 1 for an assault rifle or 2 for a sniper");
