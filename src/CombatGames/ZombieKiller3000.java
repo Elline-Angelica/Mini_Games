@@ -29,8 +29,8 @@ public class ZombieKiller3000 {
             //zombie
             System.out.println("         ____ ");
             System.out.println("        (O  0) ");
-            System.out.println("        -|  |-");
-            //System.out.println(    /   |   |  \ ");
+            System.out.println("        -|__|-");
+            //System.out.println("   /   |   |  \ ");
             //System.out.println("  / /  |   | \ \ ");
             //System.out.println(" ('')   | |  ('') ");
             //System.out.println("       /   \ ");
@@ -48,7 +48,7 @@ public class ZombieKiller3000 {
             System.out.println("Press 1 for a shotgun, 2 for an assault rifle or 3 for a sniper");
 
             int input = scanner.nextInt();
-            while (input == 1 || input == 2 || input == 3){
+            while (input == 1 || input == 2 || input == 3){ //any input other than 1,2 or 3 will be out of bound exception
                 if ((input - 1) == rzombie) {
                     System.out.println("Hooray you live!");
                     System.out.println("You chose: " + backpack[input - 1]);
