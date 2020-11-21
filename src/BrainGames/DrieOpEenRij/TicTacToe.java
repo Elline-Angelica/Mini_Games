@@ -1,4 +1,4 @@
-package BrainGames;
+package BrainGames.DrieOpEenRij;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ public class TicTacToe {
 
     static ArrayList<Integer> playerPositions = new ArrayList<Integer>();
     static ArrayList<Integer> cpuPositions = new ArrayList<Integer>();
-
+    
     public static void main(String[] args){
 
         char[][] introGameBoard =
@@ -25,7 +25,9 @@ public class TicTacToe {
 
         System.out.println("\nWelcome to TicTacToe! \nThe objective of the game is to place your character into positions that will eventually form a row of three. \nGoodluck! You will be playing against the CPU. \n");
         printGameBoard(introGameBoard);
+        System.out.println("Choose your character!");
         System.out.println("\nYou're up first! Enter your placement for X (1-9):");
+
 
         while(true) {
             Scanner scan = new Scanner(System.in);
