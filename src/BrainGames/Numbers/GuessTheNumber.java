@@ -1,4 +1,4 @@
-package BrainGames;
+package BrainGames.Numbers;
 
 import java.util.Scanner;
 

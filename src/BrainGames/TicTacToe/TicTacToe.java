@@ -1,4 +1,4 @@
-package BrainGames.DrieOpEenRij;
+package BrainGames.TicTacToe;
 
 import java.util.*;
 
